@@ -1,0 +1,7 @@
+#!/bin/sh
+
+clip=$(xclip -sel clip -o)
+prim=$(xclip -o)
+
+echo -n "$clip" | xclip 
+echo -n "$prim" | xclip -sel clip

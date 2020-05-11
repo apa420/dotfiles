@@ -1,0 +1,338 @@
+schemes:
+  Afterglow: &Afterglow
+    primary:
+      background: '#2c2c2c'
+      foreground: '#d6d6d6'
+  
+      dim_foreground:    '#dbdbdb'
+      bright_foreground: '#d9d9d9'
+      dim_background:    '#202020' # not sure
+      bright_background: '#3a3a3a' # not sure
+  
+    # Cursor colors
+    cursor:
+      text:   '#2c2c2c'
+      cursor: '#d9d9d9'
+  
+    # Normal colors
+    normal:
+      black:   '#1c1c1c'
+      red:     '#bc5653'
+      green:   '#909d63'
+      yellow:  '#ebc17a'
+      blue:    '#7eaac7'
+      magenta: '#aa6292'
+      cyan:    '#86d3ce'
+      white:   '#cacaca'
+  
+    # Bright colors
+    bright:
+      black:   '#636363'
+      red:     '#bc5653'
+      green:   '#909d63'
+      yellow:  '#ebc17a'
+      blue:    '#7eaac7'
+      magenta: '#aa6292'
+      cyan:    '#86d3ce'
+      white:   '#f7f7f7'
+  
+    # Dim colors
+    dim:
+      black:   '#232323'
+      red:     '#74423f'
+      green:   '#5e6547'
+      yellow:  '#8b7653'
+      blue:    '#556b79'
+      magenta: '#6e4962'
+      cyan:    '#5c8482'
+      white:   '#828282'
+
+
+  AyuDark: &AyuDark
+    primary:
+      background: '#0A0E14'
+      foreground: '#B3B1AD'
+  
+    # Normal colors
+    normal:
+      black: '#01060E'
+      red: '#EA6C73'
+      green: '#91B362'
+      yellow: '#F9AF4F'
+      blue: '#53BDFA'
+      magenta: '#FAE994'
+      cyan: '#90E1C6'
+      white: '#C7C7C7'
+  
+    # Bright colors
+    bright:
+      black: '#686868'
+      red: '#F07178'
+      green: '#C2D94C'
+      yellow: '#FFB454'
+      blue: '#59C2FF'
+      magenta: '#FFEE99'
+      cyan: '#95E6CB'
+      white: '#FFFFFF'
+
+
+  DarkTooth: &DarkTooth
+    primary:
+      background: '#282828'
+      foreground: '#fdf4c1'
+  
+    # Normal colors
+    normal:
+      black:   '#282828'
+      red:     '#9d0006'
+      green:   '#79740e'
+      yellow:  '#b57614'
+      blue:    '#076678'
+      magenta: '#8f3f71'
+      cyan:    '#00a7af'
+      white:   '#fdf4c1'
+  
+    # Bright colors
+    bright:
+      black:   '#32302f'
+      red:     '#fb4933'
+      green:   '#b8bb26'
+      yellow:  '#fabd2f'
+      blue:    '#83a598'
+      magenta: '#d3869b'
+      cyan:    '#3fd7e5'
+      white:   '#ffffc8'
+  
+    # Dim colors (Optional)
+    dim:
+      black:   '#1d2021'
+      red:     '#421e1e'
+      green:   '#232b0f'
+      yellow:  '#4d3b27'
+      blue:    '#2b3c44'
+      magenta: '#4e3d45'
+      cyan:    '#205161'
+      white:   '#f4e8ba'
+
+
+  Dracula: &Dracula
+    primary:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+  
+    # Normal colors
+    normal:
+      black:   '#000000'
+      red:     '#ff5555'
+      green:   '#50fa7b'
+      yellow:  '#f1fa8c'
+      blue:    '#caa9fa'
+      magenta: '#ff79c6'
+      cyan:    '#8be9fd'
+      white:   '#bfbfbf'
+  
+    # Bright colors
+    bright:
+      black:   '#575b70'
+      red:     '#ff6e67'
+      green:   '#5af78e'
+      yellow:  '#f4f99d'
+      blue:    '#caa9fa'
+      magenta: '#ff92d0'
+      cyan:    '#9aedfe'
+      white:   '#e6e6e6'
+
+
+  GruvboxLight: &GruvboxLight
+    primary:
+      # hard contrast: background = '#f9f5d7'
+      background: '#fbf1c7'
+      # soft contrast: background = '#f2e5bc'
+      foreground: '#3c3836'
+  
+    # Normal colors
+    normal:
+      black:   '#fbf1c7'
+      red:     '#cc241d'
+      green:   '#98971a'
+      yellow:  '#d79921'
+      blue:    '#458588'
+      magenta: '#b16286'
+      cyan:    '#689d6a'
+      white:   '#7c6f64'
+  
+    # Bright colors
+    bright:
+      black:   '#928374'
+      red:     '#9d0006'
+      green:   '#79740e'
+      yellow:  '#b57614'
+      blue:    '#076678'
+      magenta: '#8f3f71'
+      cyan:    '#427b58'
+      white:   '#3c3836'
+
+
+  GruvboxDark: &GruvboxDark 
+    primary:
+      # hard contrast: background = '#1d2021'
+      background: '#282828'
+      # soft contrast: background = '#32302f'
+      foreground: '#ebdbb2'
+  
+    # Normal colors
+    normal:
+      black:   '#282828'
+      red:     '#cc241d'
+      green:   '#98971a'
+      yellow:  '#d79921'
+      blue:    '#458588'
+      magenta: '#b16286'
+      cyan:    '#689d6a'
+      white:   '#a89984'
+  
+    # Bright colors
+    bright:
+      black:   '#928374'
+      red:     '#fb4934'
+      green:   '#b8bb26'
+      yellow:  '#fabd2f'
+      blue:    '#83a598'
+      magenta: '#d3869b'
+      cyan:    '#8ec07c'
+      white:   '#ebdbb2'
+
+
+  MonokaiDark: &MonakaiDark
+    # Default colors
+    primary:
+      background: '#272822'
+      foreground: '#F8F8F2'
+  
+    # Normal colors
+    normal:
+     black:   '#272822'
+     red:     '#F92672'
+     green:   '#A6E22E'
+     yellow:  '#F4BF75'
+     blue:    '#66D9EF'
+     magenta: '#AE81FF'
+     cyan:    '#A1EFE4'
+     white:   '#F8F8F2'
+  
+    # Bright colors
+    bright:
+     black:   '#75715E'
+     red:     '#F92672'
+     green:   '#A6E22E'
+     yellow:  '#F4BF75'
+     blue:    '#66D9EF'
+     magenta: '#AE81FF'
+     cyan:    '#A1EFE4'
+     white:   '#F9F8F5'
+
+
+  Nord: &Nord
+   primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+
+   # Normal colors
+   normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+
+   # Bright colors
+   bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
+
+
+  Oxide: &Oxide
+    primary:
+      background: '#212121'
+      foreground: '#c0c5ce'
+      bright_foreground: '#f3f4f5'
+  
+    cursor:
+      text: '#212121'
+      cursor: '#c0c5ce'
+  
+    # Normal colors
+    normal:
+      black:   '#212121'
+      red:     '#e57373'
+      green:   '#a6bc69'
+      yellow:  '#fac863'
+      blue:    '#6699cc'
+      magenta: '#c594c5'
+      cyan:    '#5fb3b3'
+      white:   '#c0c5ce'
+  
+    # Bright colors
+    bright:
+      black:   '#5c5c5c'
+      red:     '#e57373'
+      green:   '#a6bc69'
+      yellow:  '#fac863'
+      blue:    '#6699cc'
+      magenta: '#c594c5'
+      cyan:    '#5fb3b3'
+      white:   '#f3f4f5'
+
+
+  SolarizedDark: &SolarizedDark
+    primary:
+      background: '#002b36' # base03
+      foreground: '#839496' # base0
+
+    # Cursor colors
+    cursor:
+      text:   '#002b36' # base03
+      cursor: '#839496' # base0
+
+    # Normal colors
+    normal:
+      black:   '#073642' # base02
+      red:     '#dc322f' # red
+      green:   '#859900' # green
+      yellow:  '#b58900' # yellow
+      blue:    '#268bd2' # blue
+      magenta: '#d33682' # magenta
+      cyan:    '#2aa198' # cyan
+      white:   '#eee8d5' # base2
+
+    # Bright colors
+    bright:
+      black:   '#586e75' # base01
+      red:     '#cb4b16' # orange
+      green:   '#586e75' # base01
+      yellow:  '#657b83' # base00
+      blue:    '#839496' # base0
+      magenta: '#6c71c4' # violet
+      cyan:    '#93a1a1' # base1
+      white:   '#fdf6e3' # base3
+
+# Afterglow
+# AyuDark
+# DarkTooth
+# Dracula
+# GruvboxLight
+# GruvboxDark
+# MonakaiDark
+# Nord
+# Oxide
+# SolarizedDark
+colors: *GruvboxDark

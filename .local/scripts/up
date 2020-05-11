@@ -1,0 +1,11 @@
+#!/bin/bash
+# Upload file to nuuls
+
+URL="$(/home/apa420/.bin/ni $1)"
+
+printf "$URL" | xclip -selection clipboard 
+echo "$URL" >> $PWD/nuuls
+
+[ "-x $BROWSER" ] && exec "$BROWSER" "$URL"
+path=$(which xdg-open || which gnome-open) && exec "$path" "$URL"
+echo "Can't find browser"

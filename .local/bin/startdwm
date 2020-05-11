@@ -1,0 +1,16 @@
+#!/bin/sh
+
+chatterino &
+brave &
+alacritty &
+discord &
+riot-desktop &
+
+while true; do
+    # Log stderror to a file 
+    $HOME/.local/scripts/statusbar &
+    #dwm 2> ~/.local/log/dwm.log
+    # No error logging
+    dwm >/dev/null 2>&1
+    kill $!
+done

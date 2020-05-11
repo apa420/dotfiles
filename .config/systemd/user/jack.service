@@ -1,0 +1,10 @@
+[Unit]
+Description=JACK
+After=sound.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/jackd -R -d alsa 
+
+[Install]
+WantedBy=default.target

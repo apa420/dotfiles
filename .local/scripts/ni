@@ -1,0 +1,14 @@
+#!/bin/sh
+# Screenshot with scrot and upload to nuuls
+# Then copy to clipboard and append to file nuuls
+
+
+tempfile=$(mktemp /tmp/nuuls.XXXXX.png)
+
+if scrot -so $tempfile ; then
+    $(dirname $(readlink -f "$0"))/up $tempfile
+else
+    echo "Cancelled"
+fi
+
+rm $tempfile

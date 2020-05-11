@@ -1,0 +1,11 @@
+#!/bin/sh
+
+while true; do
+  xsetroot -name "\
+$(amixer sget Master | grep -oqm 1 '\[off\]' && echo "(m)")\
+$(amixer sget Master | grep -om 1 '\[[0-9]*\%\]' | tr -d '[]')♪|\
+$(head -c -4 /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp2_input)°C|\
+$(date +%x\ %X)\
+"
+    sleep 1
+done
